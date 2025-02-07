@@ -6,23 +6,25 @@
   <artifactId>parent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <packaging>pom</packaging>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <slf4j.version>2.0.16</slf4j.version>
   </properties>
 
   <dependencies>
+
     <dependency>
       <groupId>nl.basjes.parse.useragent</groupId>
       <artifactId>yauaa</artifactId>
       <version>7.20.0</version>
     </dependency>
-  </dependencies>
 
-  <modules>
-    <module>moduleA</module>
-    <module>moduleB</module>
-  </modules>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>${slf4j.version}</version>
+    </dependency>
+
+  </dependencies>
 
 </project>
