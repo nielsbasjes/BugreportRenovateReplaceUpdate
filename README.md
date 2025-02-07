@@ -57,6 +57,11 @@ DEBUG: branches info extended
 
 Note the `"result": "no-work",`
 
+The dependency dashboard shows this:
+![img.png](img.png)
+
+There is NO additional branch for this anywhere.
+
 ## Expected behavior
 
 A proposed update is created for this change.
